@@ -4,7 +4,7 @@ The purpose of this project is to prepare tidy data that can be used for later a
 ##Submission Files:
 
 ###CodeBook.md:
-- Describes the variables, the data, and any transformations or work that was performed to clean up the data.
+- Describes the variables and any work that was performed to clean up the data.
 
 ###run_analysis.R:
 - Download the dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip if it does not already exist in the working directory.
