@@ -77,4 +77,9 @@ TidyData<- TidyData[order(TidyData$subjectId, TidyData$activityId),]
 
 # Writing second tidy data set in txt file
 write.table(TidyData, "TidyData.txt", row.name=FALSE)
+#.................................................................................................
 
+## 6. Produce a codebook for the final dataset
+install.packages("memisc")
+library(memisc)
+codebook(TidyData)
